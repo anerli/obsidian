@@ -2,10 +2,30 @@
 	"name": "Obsidian",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
+		"foreground": "#ffffff",
+
+		"editor.background": "#12091b",
 		"editor.foreground": "#eeffff",
 		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+
+		"sideBarTitle.foreground": "#bbbbbb",
+		"sideBar.background": "#251a30",
+
+		"editorGroupHeader.tabsBackground": "#0d0813",
+		"tab.inactiveBackground": "#251a30",
+		"activityBar.background": "#0d0813",
+		"contrastActiveBorder": "#000000",
+
+		"editorGroup.border": "#552a5f",
+		"contrastBorder": "#552a5f",
+
+		"input.background": "#12091b",
+
+		"list.activeSelectionBackground": "#603069",
+		"list.focusBackground": "#ffff00",
+		"list.hoverBackground": "#45234e",
+		"list.inactiveSelectionBackground": "#463a52"
+
 	},
 	"tokenColors": [
 		{
