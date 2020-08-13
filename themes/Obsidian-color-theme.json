@@ -18,6 +18,14 @@
 
 		"editorGroup.border": "#552a5f",
 		"contrastBorder": "#552a5f",
+		"panel.border": "#552a5f",
+
+		"panel.background": "#000000",
+
+		"terminal.background": "#000000",
+		"terminal.foreground": "#9dffc2",
+
+		"statusBar.background": "#603069",
 
 		"input.background": "#12091b",
 
