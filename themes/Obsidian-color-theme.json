@@ -26,6 +26,19 @@
 		"contrastBorder": "#552a5f",
 		"panel.border": "#552a5f",
 
+		// Importante
+		"focusBorder": "#7c418a",
+		//"widget.shadow": "#0000ff",
+    	//"selection.background": "#00ff00",
+    	//"descriptionForeground": "#ffff00",
+    	//"errorForeground": "#00ffff",
+
+
+		"activityBar.activeBorder": "#c365d8",
+		//"activityBar.border": "#ff0000",
+		//"tab.activeBorderTop": "#ff0000",
+		
+
 		"panel.background": "#000000",
 
 		"terminal.background": "#0a020f",
@@ -34,13 +47,20 @@
 		"statusBar.background": "#48274e",
 
 		"input.background": "#12091b",
+		"input.border": "#552a5f",
+		"inputOption.activeBorder": "#552a5f",
+		"inputValidation.infoBorder": "#552a5f",
 
 		"list.activeSelectionBackground": "#2a093f",
 		"list.hoverBackground": "#190425",
 		"list.inactiveSelectionBackground": "#190425",
 
 		"textLink.foreground": "#c365d8",
-		"textLink.activeForeground": "#dd72f5"
+		"textLink.activeForeground": "#dd72f5",
+
+		"button.background": "#9430aa",
+
+		"window.activeBorder": "#000000"
 
 	},
 	"tokenColors": [
@@ -92,7 +112,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#d89eff"
 			}
 		},
 		{
@@ -100,7 +120,7 @@
 			"scope": [
 				"keyword.control",
 				"constant.other.color",
-				"punctuation",
+				//"punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
@@ -127,16 +147,56 @@
 			}
 		},
 		{
-			"name": "Function, Special Method",
+			"name": "Function, Special Method, Decorators",
 			"scope": [
-				"entity.name.function",
-				"meta.function-call",
+				"entity.name.function.decorator",
 				"variable.function",
 				"support.function",
 				"keyword.other.special-method"
 			],
 			"settings": {
 				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "Function Definitions",
+			"scope": [
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#ee6cff"
+			}
+		},
+		// {
+		// 	"name": "Parentheses",
+		// 	"scope": [
+		// 		"punctuation.definition.arguments meta.function-call"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#46ffd1"
+		// 	}
+		// },
+		{
+			"name": "Function Calls",
+			"scope": [
+				"meta.function-call.generic",
+				"meta.function-call entity.name.function"
+			],
+			"settings": {
+				"foreground": "#46ffd1"
+			}
+		},
+		// Below two items are a hack, I have no idea what I am doing.
+		// The second one turns back the ones that I don't want the first one to affect.
+		{
+			"name": "Item access",
+			"scope": [
+				//"punctuation.definition.arguments.begin.python meta.item-access.python source.python"// meta.item-access"
+				//"meta.item-access"
+				"meta.item-access punctuation"
+			],
+			"settings": {
+				"foreground": "#00ff00"
 			}
 		},
 		{
@@ -159,19 +219,34 @@
 			}
 		},
 		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			//"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"name": "Parameters",
+			"scope": [
+				//"constant.numeric",
+				// "constant.language",
+				// "support.constant",
+				// "constant.character",
+				// "constant.escape",
+				"variable.parameter",
+				
+			],
+			"settings": {
+				"foreground": "#F78C6C"
+			}
+		},
+		{
+			"name": "Number, Constants",
 			"scope": [
 				"constant.numeric",
 				"constant.language",
 				"support.constant",
 				"constant.character",
 				"constant.escape",
-				"variable.parameter",
 				"keyword.other.unit",
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#6cdbf7"
 			}
 		},
 		{
