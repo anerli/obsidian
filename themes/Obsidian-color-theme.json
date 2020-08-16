@@ -65,6 +65,24 @@
 	},
 	"tokenColors": [
 		{
+			"name": "Imports",
+			"scope": [
+				"keyword.control.import"
+			],
+			"settings": {
+				"foreground": "#f9fc74"
+			}
+		},
+		{
+			"name": "Terminator (Semicolon)",
+			"scope": [
+				"punctuation.terminator"
+			],
+			"settings": {
+				"foreground": "#ff0000"
+			}
+		},
+		{
 			"name": "Comment",
 			"scope": [
 				"comment",
@@ -132,7 +150,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#fc6ec5"
 			}
 		},
 		{
@@ -155,7 +173,8 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				// Same as imports
+				"foreground": "#fdff8c"
 			}
 		},
 		{
@@ -177,15 +196,26 @@
 		// 	}
 		// },
 		{
-			"name": "Function Calls",
+			"name": "Function Calls, Function Call Parentheses",
 			"scope": [
 				"meta.function-call.generic",
-				"meta.function-call entity.name.function"
+				"meta.function-call entity.name.function",
+				"meta.function-call punctuation.definition.arguments"
 			],
 			"settings": {
 				"foreground": "#46ffd1"
 			}
 		},
+		{
+			"name": "Builtin Function Calls",
+			"scope": [
+				"meta.function-call support.function"
+			],
+			"settings": {
+				"foreground": "#46ff7e"
+			}
+		},
+		
 		// Below two items are a hack, I have no idea what I am doing.
 		// The second one turns back the ones that I don't want the first one to affect.
 		{
@@ -196,7 +226,7 @@
 				"meta.item-access punctuation"
 			],
 			"settings": {
-				"foreground": "#00ff00"
+				"foreground": "#46ff7e"
 			}
 		},
 		{
@@ -231,7 +261,7 @@
 				
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#c4ff66"
 			}
 		},
 		{
@@ -261,7 +291,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#fff59f"
 			}
 		},
 		{
@@ -277,7 +307,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#bc6aff"
 			}
 		},
 		{
