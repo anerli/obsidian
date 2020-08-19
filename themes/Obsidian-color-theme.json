@@ -353,7 +353,6 @@
 				"variable.parameter.function.language.special"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#FF5370"
 			}
 		},
