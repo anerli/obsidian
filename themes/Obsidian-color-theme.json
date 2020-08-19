@@ -64,15 +64,16 @@
 
 	},
 	"tokenColors": [
-		{
-			"name": "Imports",
-			"scope": [
-				"keyword.control.import"
-			],
-			"settings": {
-				"foreground": "#f9fc74"
-			}
-		},
+		// {
+		// 	"name": "Control Keywords",
+		// 	"scope": [
+		// 		//"keyword.control.import"
+		// 		"keyword.control"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#f9fc74"
+		// 	}
+		// },
 		{
 			"name": "Terminator (Semicolon)",
 			"scope": [
