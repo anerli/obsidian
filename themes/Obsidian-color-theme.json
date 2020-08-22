@@ -84,6 +84,15 @@
 			}
 		},
 		{
+			"name": "Exceptions",
+			"scope": [
+				"support.type.exception"
+			],
+			"settings": {
+				"foreground": "#ff5b5b"
+			}
+		},
+		{
 			"name": "Comment",
 			"scope": [
 				"comment",
