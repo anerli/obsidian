@@ -2,4 +2,6 @@
 
 Nice purple colors.
 
-Don't mine without a diamond pickaxe.
+Designed for Python but maybe sorta works with other stuff.
+
+Requires a diamond pickaxe to properly mine.
