@@ -233,7 +233,8 @@
 			"scope": [
 				//"punctuation.definition.arguments.begin.python meta.item-access.python source.python"// meta.item-access"
 				//"meta.item-access"
-				"meta.item-access punctuation"
+				//"meta.item-access punctuation",
+				"source meta.item-access punctuation.definition.arguments"
 			],
 			"settings": {
 				"foreground": "#46ff7e"
