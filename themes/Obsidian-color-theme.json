@@ -190,7 +190,7 @@
 		{
 			"name": "Function Definitions",
 			"scope": [
-				"entity.name.function"
+				"source meta.function.definition meta.function entity.name.function"
 			],
 			"settings": {
 				"foreground": "#6cdbf7"
@@ -209,6 +209,7 @@
 			"name": "Function Calls, Function Call Parentheses",
 			"scope": [
 				"meta.function-call.generic",
+				"source meta.function-call meta.block entity.name.function",
 				"meta.function-call entity.name.function",
 				"meta.function-call punctuation.definition.arguments"
 			],
@@ -238,6 +239,7 @@
 			],
 			"settings": {
 				"foreground": "#46ff7e"
+				//"foreground": "#c4ff66"
 			}
 		},
 		{
@@ -273,6 +275,7 @@
 			],
 			"settings": {
 				"foreground": "#c4ff66"
+				//"foreground": "#46ffd1"
 			}
 		},
 		{
