@@ -149,7 +149,7 @@
 				"keyword.control",
 				"constant.other.color",
 				//"punctuation",
-				"meta.tag",
+				//"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
@@ -242,15 +242,15 @@
 				//"foreground": "#c4ff66"
 			}
 		},
-		{
-			"name": "Block Level Variables",
-			"scope": [
-				"meta.block variable.other"
-			],
-			"settings": {
-				"foreground": "#f07178"
-			}
-		},
+		// {
+		// 	"name": "Block Level Variables",
+		// 	"scope": [
+		// 		"meta.block variable.other"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#f07178"
+		// 	}
+		// },
 		{
 			"name": "Other Variable, String Link",
 			"scope": [
@@ -270,8 +270,7 @@
 				// "support.constant",
 				// "constant.character",
 				// "constant.escape",
-				"variable.parameter",
-				
+				"variable.parameter"
 			],
 			"settings": {
 				"foreground": "#c4ff66"
@@ -395,7 +394,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#C4FF66"
 			}
 		},
 		{
