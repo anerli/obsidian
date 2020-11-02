@@ -1,6 +1,6 @@
 {
-    "name": "Obsidian",
-    "type": "dark",
+    "author": "akamud",
+    "name": "OneDark",
     "colors": {
         "activityBar.background": "#333842",
         "activityBar.foreground": "#D7DAE0",
@@ -13,26 +13,26 @@
         "dropdown.background": "#353b45",
         "dropdown.border": "#181A1F",
         "editorIndentGuide.activeBackground": "#626772",
-        "editor.background": "#100216",
-        "editor.foreground": "#EEEEFF",
+        "editor.background": "#282C34",
+        "editor.foreground": "#ABB2BF",
         "editor.lineHighlightBackground": "#99BBFF0A",
         "editor.selectionBackground": "#3E4451",
         "editorCursor.foreground": "#528BFF",
         "editor.findMatchHighlightBackground": "#528BFF3D",
-        "editorGroup.background": "#1B0623",
+        "editorGroup.background": "#21252B",
         "editorGroup.border": "#181A1F",
-        "editorGroupHeader.tabsBackground": "#1B0623",
-        "editorIndentGuide.background": "#EEEEFF26",
+        "editorGroupHeader.tabsBackground": "#21252B",
+        "editorIndentGuide.background": "#ABB2BF26",
         "editorLineNumber.foreground": "#636D83",
-        "editorLineNumber.activeForeground": "#EEEEFF",
-        "editorWhitespace.foreground": "#EEEEFF26",
-        "editorRuler.foreground": "#EEEEFF26",
-        "editorHoverWidget.background": "#1B0623",
+        "editorLineNumber.activeForeground": "#ABB2BF",
+        "editorWhitespace.foreground": "#ABB2BF26",
+        "editorRuler.foreground": "#ABB2BF26",
+        "editorHoverWidget.background": "#21252B",
         "editorHoverWidget.border": "#181A1F",
-        "editorSuggestWidget.background": "#1B0623",
+        "editorSuggestWidget.background": "#21252B",
         "editorSuggestWidget.border": "#181A1F",
         "editorSuggestWidget.selectedBackground": "#2C313A",
-        "editorWidget.background": "#1B0623",
+        "editorWidget.background": "#21252B",
         "editorWidget.border": "#3A3F4B",
         "input.background": "#1B1D23",
         "input.border": "#181A1F",
@@ -44,24 +44,24 @@
         "list.highlightForeground": "#D7DAE0",
         "list.inactiveSelectionBackground": "#2C313A",
         "list.inactiveSelectionForeground": "#D7DAE0",
-        "notification.background": "#1B0623",
+        "notification.background": "#21252B",
         "pickerGroup.border": "#528BFF",
         "scrollbarSlider.background": "#4E566680",
         "scrollbarSlider.activeBackground": "#747D9180",
         "scrollbarSlider.hoverBackground": "#5A637580",
-        "sideBar.background": "#1B0623",
+        "sideBar.background": "#21252B",
         "sideBarSectionHeader.background": "#333842",
-        "statusBar.background": "#1B0623",
+        "statusBar.background": "#21252B",
         "statusBar.foreground": "#9DA5B4",
         "statusBarItem.hoverBackground": "#2C313A",
-        "statusBar.noFolderBackground": "#1B0623",
-        "tab.activeBackground": "#100216",
+        "statusBar.noFolderBackground": "#21252B",
+        "tab.activeBackground": "#282C34",
         "tab.activeForeground": "#D7DAE0",
         "tab.border": "#181A1F",
-        "tab.inactiveBackground": "#1B0623",
-        "titleBar.activeBackground": "#1B0623",
+        "tab.inactiveBackground": "#21252B",
+        "titleBar.activeBackground": "#21252B",
         "titleBar.activeForeground": "#9DA5B4",
-        "titleBar.inactiveBackground": "#1B0623",
+        "titleBar.inactiveBackground": "#21252B",
         "titleBar.inactiveForeground": "#9DA5B4",
         "statusBar.debuggingForeground": "#FFFFFF",
         "extensionButton.prominentBackground": "#2BA143",
@@ -69,7 +69,7 @@
         "badge.background": "#528BFF",
         "badge.foreground": "#D7DAE0",
         "peekView.border": "#528BFF",
-        "peekViewResult.background": "#1B0623",
+        "peekViewResult.background": "#21252B",
         "peekViewResult.selectionBackground": "#2C313A",
         "peekViewTitle.background": "#1B1D23",
         "peekViewEditor.background": "#1B1D23"
@@ -145,7 +145,7 @@
                 "keyword.other.special-method"
             ],
             "settings": {
-                "foreground": "#9DEFFF"
+                "foreground": "#61AFEF"
             }
         },
         {
@@ -154,7 +154,7 @@
                 "keyword.other.unit"
             ],
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
@@ -183,7 +183,7 @@
                 "storage.modifier.import"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -192,7 +192,7 @@
                 "constant"
             ],
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
@@ -201,7 +201,7 @@
                 "constant.variable"
             ],
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
@@ -219,7 +219,7 @@
                 "constant.numeric"
             ],
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
@@ -264,7 +264,7 @@
                 "variable.parameter"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -273,7 +273,7 @@
                 "string"
             ],
             "settings": {
-                "foreground": "#AFFF74"
+                "foreground": "#98C379"
             }
         },
         {
@@ -283,7 +283,7 @@
                 "string embedded"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -333,7 +333,7 @@
                 "punctuation.definition.array"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -343,7 +343,7 @@
                 "punctuation.definition.identity"
             ],
             "settings": {
-                "foreground": "#9DEFFF"
+                "foreground": "#61AFEF"
             }
         },
         {
@@ -383,7 +383,7 @@
                 "punctuation.section.inner-class"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -419,7 +419,7 @@
                 "support.function.any-method"
             ],
             "settings": {
-                "foreground": "#9DEFFF"
+                "foreground": "#61AFEF"
             }
         },
         {
@@ -428,7 +428,7 @@
                 "entity.name.function"
             ],
             "settings": {
-                "foreground": "#9DEFFF"
+                "foreground": "#61AFEF"
             }
         },
         {
@@ -447,7 +447,7 @@
                 "entity.name.section"
             ],
             "settings": {
-                "foreground": "#9DEFFF"
+                "foreground": "#61AFEF"
             }
         },
         {
@@ -465,7 +465,7 @@
                 "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
@@ -474,7 +474,7 @@
                 "entity.other.attribute-name.id"
             ],
             "settings": {
-                "foreground": "#9DEFFF"
+                "foreground": "#61AFEF"
             }
         },
         {
@@ -492,7 +492,7 @@
                 "meta.class.body"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -502,7 +502,7 @@
                 "meta.method"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -520,7 +520,7 @@
                 "meta.link"
             ],
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
@@ -529,7 +529,7 @@
                 "meta.require"
             ],
             "settings": {
-                "foreground": "#9DEFFF"
+                "foreground": "#61AFEF"
             }
         },
         {
@@ -547,7 +547,7 @@
                 "meta.separator"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -556,7 +556,7 @@
                 "meta.tag"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -574,7 +574,7 @@
                 "none"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -603,7 +603,7 @@
                 "markup.bold"
             ],
             "settings": {
-                "foreground": "#FFF879",
+                "foreground": "#D19A66",
                 "fontStyle": "bold"
             }
         },
@@ -650,7 +650,7 @@
                 "markup.heading punctuation.definition.heading"
             ],
             "settings": {
-                "foreground": "#9DEFFF"
+                "foreground": "#61AFEF"
             }
         },
         {
@@ -668,7 +668,7 @@
                 "markup.inserted"
             ],
             "settings": {
-                "foreground": "#AFFF74"
+                "foreground": "#98C379"
             }
         },
         {
@@ -677,7 +677,7 @@
                 "markup.quote"
             ],
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
@@ -686,7 +686,7 @@
                 "markup.raw"
             ],
             "settings": {
-                "foreground": "#AFFF74"
+                "foreground": "#98C379"
             }
         },
         {
@@ -733,7 +733,7 @@
                 "source.css property-value.support"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -742,7 +742,7 @@
                 "source.elixir source.embedded.source"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -753,7 +753,7 @@
                 "source.elixir constant.definition"
             ],
             "settings": {
-                "foreground": "#9DEFFF"
+                "foreground": "#61AFEF"
             }
         },
         {
@@ -772,7 +772,7 @@
                 "source.elixir parameter.variable.function"
             ],
             "settings": {
-                "foreground": "#FFF879",
+                "foreground": "#D19A66",
                 "fontStyle": "italic"
             }
         },
@@ -782,7 +782,7 @@
                 "source.elixir quoted"
             ],
             "settings": {
-                "foreground": "#AFFF74"
+                "foreground": "#98C379"
             }
         },
         {
@@ -822,7 +822,7 @@
                 "source.elixir keyword.operator"
             ],
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
@@ -860,7 +860,7 @@
                 "source.gfm link entity"
             ],
             "settings": {
-                "foreground": "#9DEFFF"
+                "foreground": "#61AFEF"
             }
         },
         {
@@ -923,7 +923,7 @@
                 "source.java-properties meta.key-pair > punctuation"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -995,7 +995,7 @@
                 "source.json meta.structure.array.json > value.json > string.quoted.json > punctuation"
             ],
             "settings": {
-                "foreground": "#AFFF74"
+                "foreground": "#98C379"
             }
         },
         {
@@ -1024,7 +1024,7 @@
                 "ng.interpolation.end"
             ],
             "settings": {
-                "foreground": "#9DEFFF"
+                "foreground": "#61AFEF"
             }
         },
         {
@@ -1043,7 +1043,7 @@
                 "ng.interpolation function.end"
             ],
             "settings": {
-                "foreground": "#9DEFFF"
+                "foreground": "#61AFEF"
             }
         },
         {
@@ -1052,7 +1052,7 @@
                 "ng.interpolation bool"
             ],
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
@@ -1061,7 +1061,7 @@
                 "ng.interpolation bracket"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1071,7 +1071,7 @@
                 "ng.operator"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1108,7 +1108,7 @@
                 "ng.attribute-with-value string.end"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1126,7 +1126,7 @@
                 "source.php class.bracket"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1144,35 +1144,35 @@
                 "source.python variable.parameter"
             ],
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
             "name": "customrule",
             "scope": "customrule",
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] Support Type Property Name",
             "scope": "support.type.property-name",
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] Punctuation for Quoted String",
             "scope": "string.quoted.double punctuation",
             "settings": {
-                "foreground": "#AFFF74"
+                "foreground": "#98C379"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] Support Constant",
             "scope": "support.constant",
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
@@ -1218,7 +1218,7 @@
                 "variable.other.readwrite.tsx"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1259,7 +1259,7 @@
                 "source.tsx punctuation.definition.typeparameters"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1270,7 +1270,7 @@
                 "source.tsx punctuation.definition.block"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1281,7 +1281,7 @@
                 "source.tsx punctuation.separator.comma"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1342,7 +1342,7 @@
                 "meta.brace.square.tsx"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1353,7 +1353,7 @@
                 "source.tsx punctuation.accessor"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1364,7 +1364,7 @@
                 "punctuation.terminator.statement.tsx"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1375,7 +1375,7 @@
                 "meta.array-binding-pattern-variable.tsx variable.other.readwrite.tsx"
             ],
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
@@ -1397,7 +1397,7 @@
                 "variable.other.constant.property.tsx"
             ],
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
@@ -1429,7 +1429,7 @@
                 "punctuation.separator.parameter.tsx "
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1461,7 +1461,7 @@
                 "keyword.control.as.tsx"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1485,7 +1485,7 @@
                 "variable.other.constant.tsx"
             ],
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
@@ -1506,7 +1506,7 @@
                 "source.tsx meta.template.expression.tsx punctuation.accessor"
             ],
             "settings": {
-                "foreground": "#AFFF74"
+                "foreground": "#98C379"
             }
         },
         {
@@ -1518,21 +1518,21 @@
                 "source.tsx meta.import-equals.external.tsx keyword.operator"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] JS/TS Type Module",
             "scope": "entity.name.type.module.js,entity.name.type.module.ts,entity.name.type.module.jsx,entity.name.type.module.tsx",
             "settings": {
-                "foreground": "#AFFF74"
+                "foreground": "#98C379"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] JS/TS Meta Class",
             "scope": "meta.class.js,meta.class.ts,meta.class.jsx,meta.class.tsx",
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1544,7 +1544,7 @@
                 "meta.definition.property.tsx variable"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1556,7 +1556,7 @@
                 "meta.type.parameters.tsx support.type"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1568,7 +1568,7 @@
                 "source.tsx meta.tag.tsx keyword.operator"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1580,7 +1580,7 @@
                 "meta.tag.tsx punctuation.section.embedded"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1625,7 +1625,7 @@
                 "variable.other.constant.object.tsx"
             ],
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
@@ -1649,7 +1649,7 @@
                 "meta.template.expression.tsx string.quoted punctuation.definition"
             ],
             "settings": {
-                "foreground": "#AFFF74"
+                "foreground": "#98C379"
             }
         },
         {
@@ -1661,7 +1661,7 @@
                 "meta.template.expression.tsx string.template punctuation.definition.string.template"
             ],
             "settings": {
-                "foreground": "#AFFF74"
+                "foreground": "#98C379"
             }
         },
         {
@@ -1683,7 +1683,7 @@
                 "variable.other.object.ts"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1700,21 +1700,21 @@
             "name": "[VSCODE-CUSTOM] Python Constants Other",
             "scope": "source.python constant.other",
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] Python Constants",
             "scope": "source.python constant",
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] Python Placeholder Character",
             "scope": "constant.character.format.placeholder.other.python storage",
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
@@ -1728,21 +1728,21 @@
             "name": "[VSCODE-CUSTOM] Python Meta Function Parameters",
             "scope": "meta.function.parameters.python",
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] Python Function Separator Annotation",
             "scope": "punctuation.separator.annotation.python",
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] Python Function Separator Punctuation",
             "scope": "punctuation.separator.parameters.python",
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1756,35 +1756,35 @@
             "name": "[VSCODE-CUSTOM] CSharp Keyword Operators",
             "scope": "source.cs keyword.operator",
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] CSharp Variables",
             "scope": "variable.other.readwrite.cs",
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] CSharp Variables Other",
             "scope": "variable.other.object.cs",
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] CSharp Property Other",
             "scope": "variable.other.object.property.cs",
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] CSharp Property",
             "scope": "entity.name.variable.property.cs",
             "settings": {
-                "foreground": "#9DEFFF"
+                "foreground": "#61AFEF"
             }
         },
         {
@@ -1812,14 +1812,14 @@
             "name": "[VSCODE-CUSTOM] Rust Storage Modifier Lifetime",
             "scope": "storage.modifier.lifetime.rust",
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] Rust Entity Name Lifetime",
             "scope": "entity.name.lifetime.rust",
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
@@ -1833,7 +1833,7 @@
             "name": "[VSCODE-CUSTOM] Rust Meta Attribute",
             "scope": "meta.attribute.rust",
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
@@ -1847,7 +1847,7 @@
             "name": "[VSCODE-CUSTOM] Markdown Raw Block",
             "scope": "markup.raw.block.markdown",
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1861,14 +1861,14 @@
             "name": "[VSCODE-CUSTOM] Css Support Constant Value",
             "scope": "support.constant.property-value.css",
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] Css Punctuation Definition Constant",
             "scope": "punctuation.definition.constant.css",
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
@@ -1882,14 +1882,14 @@
             "name": "[VSCODE-CUSTOM] Sass Punctuation for constants",
             "scope": "punctuation.definition.constant.scss",
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] Sass Punctuation for key-value",
             "scope": "meta.property-list.scss punctuation.separator.key-value.scss",
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1917,21 +1917,21 @@
             "name": "[VSCODE-CUSTOM] Markdown heading setext",
             "scope": "markup.heading.setext",
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] Markdown Punctuation Definition Bold",
             "scope": "punctuation.definition.bold.markdown",
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] Markdown Inline Raw",
             "scope": "markup.inline.raw.markdown",
             "settings": {
-                "foreground": "#AFFF74"
+                "foreground": "#98C379"
             }
         },
         {
@@ -1957,7 +1957,7 @@
                 "punctuation.definition.metadata.markdown"
             ],
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -1984,7 +1984,7 @@
                 "string.other.link.description.markdown"
             ],
             "settings": {
-                "foreground": "#9DEFFF"
+                "foreground": "#61AFEF"
             }
         },
         {
@@ -1998,14 +1998,14 @@
             "name": "[VSCODE-CUSTOM] Ruby Other Constant Variable",
             "scope": "variable.other.constant.ruby",
             "settings": {
-                "foreground": "#FFF879"
+                "foreground": "#D19A66"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] Ruby Keyword Operator Other",
             "scope": "keyword.operator.other.ruby",
             "settings": {
-                "foreground": "#AFFF74"
+                "foreground": "#98C379"
             }
         },
         {
@@ -2019,7 +2019,7 @@
             "name": "[VSCODE-CUSTOM] PHP Meta Class",
             "scope": "meta.class.php",
             "settings": {
-                "foreground": "#EEEEFF"
+                "foreground": "#ABB2BF"
             }
         }
     ],
